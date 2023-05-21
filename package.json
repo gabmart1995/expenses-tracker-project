@@ -1,0 +1,31 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "example react application",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "postbuild-prod": "tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@babel/core": "7.x",
+    "@babel/preset-env": "7.x",
+    "@babel/preset-react": "7.x",
+    "babel-loader": "8.x",
+    "css-loader": "3.x",
+    "style-loader": "1.x",
+    "tailwindcss": "^3.3.2",
+    "webpack": "4.x",
+    "webpack-cli": "3.x",
+    "webpack-dev-server": "3.4.1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "victory": "^36.6.10"
+  }
+}
