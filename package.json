@@ -8,7 +8,7 @@
     "clean": "rm dist/bundle.js",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
-    "postbuild-prod": "tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "postbuild-prod": "tailwindcss -i ./src/style.css -o ./docs/style.css",
     "start": "webpack-dev-server --open"
   },
   "devDependencies": {
