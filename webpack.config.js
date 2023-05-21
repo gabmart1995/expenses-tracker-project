@@ -5,7 +5,7 @@ const config = {
     './src/index.js'
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js'
   },
   module: {
@@ -25,7 +25,7 @@ const config = {
     ]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
+    contentBase: path.resolve(__dirname, 'docs'),
     port: 3000,
   }
 };
