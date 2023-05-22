@@ -3,7 +3,7 @@
 Personal project intended for portfolio, calculates the account statement of a client showing the result in real time the transactions carried out
 
 ## Requeriments
-NodeJS >= 8.x
+NodeJS >= 12.x
 
 ### build with
 - Webpack 
