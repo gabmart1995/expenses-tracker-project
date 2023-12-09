@@ -2,6 +2,8 @@
 
 Personal project intended for portfolio, calculates the account statement of a client showing the result in real time the transactions carried out
 
+for show in production [expenses tracker proyect](https://gabmart1995.github.io/expenses-tracker-project/)
+
 ## Requeriments
 NodeJS >= 12.x
 
