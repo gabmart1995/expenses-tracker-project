@@ -25,3 +25,9 @@ To transpile to production you can run the following command `yarn run build-pro
 - Configure a packager and babel manually add react and tailwind in the process
 - Split code
 - Knowledge about problems when creating production packaging
+
+#### next challenges
+- update design
+- transform into a pwa
+- install on your computer
+- work without internet connection
